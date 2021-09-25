@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.colorPicker {
+  width:20px;
+  -webkit-appearance: none;
+  border: none;
+}
+.colorPicker::-webkit-color-swatch-wrapper {
+	padding: 0px;
+}
